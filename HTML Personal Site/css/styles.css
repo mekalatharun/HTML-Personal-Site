@@ -1,0 +1,42 @@
+/*tag selectors*/
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%;
+}
+
+h1 {
+  color: #66BFBF;
+}
+/* pseudo classes*/
+h1:hover{
+  background-color: gold;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+/*class selectors(u can  use  same class multiple times to group related items )*/
+.skills {
+  color: pink;
+}
+
+.edu {
+  color: orange;
+  font-style: italic;
+}
+.edut{
+  color: maroon;
+}
+
+/*id selectors (u can only use  same id once)*/
+#working {
+  color: violet;
+}
